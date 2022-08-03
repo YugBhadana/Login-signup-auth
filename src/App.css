@@ -1,0 +1,44 @@
+.App {
+  /* text-align: center;
+  width: 100vw;
+  height: 100vh; */
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+
+
+#light {
+  background-image: linear-gradient(45deg, #B1E1FF 30%, #AFB4FF 90%);
+}
+
+#dark {
+  background-image: linear-gradient(45deg, #0078AA 30%, #764AF1 90%);
+}
+
+
+
+.switch {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+}
